@@ -2,9 +2,12 @@
 <html>
     <head>
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
         <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="style.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     </head>
     <body>
         <header class="header">
@@ -17,13 +20,25 @@
                     <li class="nav__item"><a href="#xpwork">Experiencias profissionais</a></li>
                     <li class="nav__item"><a href="#contact">Contato</a></li>
                 </ul>
+                <button class="topbar__hamburger">
+                    <i class="fa fa-bars"></i>
+                </button>
             </nav>
         </header>
         <main class="content">
-            <section class="content__section content__start" id="start"></section>
+            <section class="content__section content__start" id="start">
+                <h2 class="start__saudations">Hi, my name is Daniel Nogueira</h2>
+                <p class="start__bio">
+                    I am a student of software engineering, studying and developing my 
+                    skills to be a full-stack developer and a mobile developer.
+                </p>
+            </section>
             <section class="content__section content__skills" id="skills"></section>
             <section class="content__section content__projects" id="projects"></section>
             <section class="content__section content__xpwork" id="xpwork"></section>
         </main>
+
+        <script src='./script.js'>
+        </script>
     </body>
 </html>
