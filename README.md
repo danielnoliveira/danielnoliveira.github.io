@@ -1,6 +1,6 @@
-<h1 align="center"></h1>
+<h1 align="center">Meu portifolio</h1>
 <p align="center">
-  ![GitHub repo size](https://img.shields.io/github/repo-size/danielnoliveira/danielnoliveira.github.io)
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/danielnoliveira/danielnoliveira.github.io">
 </p>
 
 <p>Site para mostrar minhas habilidades, projetos e trabalhos feitos.</p>
