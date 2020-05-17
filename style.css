@@ -83,6 +83,7 @@ body{
     height: 450px;
     color: white;
     margin: 10px 20px;
+    height: 450px;
 }
 .skills__title {
     text-align: center;
@@ -167,5 +168,31 @@ body{
 }
 .card__header{
     text-align: center;
-    padding: 8px;
+    padding: 10px;
+}
+.card__content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+}
+progress{
+    border-radius: 15px;
+    overflow: hidden;
+    height: 10px;
+}
+progress::-moz-progress-bar,progress::-webkit-progress-value  {
+    background-color: yellowgreen;
+}
+progress{
+    color: yellowgreen;
+}
+.content__skill{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
 }
