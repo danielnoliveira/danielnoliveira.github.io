@@ -249,7 +249,7 @@ progress{
         transform: rotate(360deg);
     }
 }
-.projects__github{
+.projects__LinkButton{
     background: white;
     font-size: 85px;
     cursor: pointer;
@@ -264,22 +264,22 @@ progress{
     align-items: center;
     text-decoration: none;
 }
-.projects__github>i{
+.projects__LinkButton>i{
     margin-left: 2px;
 }
-.projects__github span{
+.projects__LinkButton span{
     font-size: 23px;
     margin-left: 14px;
     opacity: 0;
     transition: opacity 0.5s;
     transition-delay: 0.75s;
 }
-.projects__github:hover{
+.projects__LinkButton:hover{
     background: black;
     color: white;
     width: 464px;
 }
-.projects__github:hover span{
+.projects__LinkButton:hover span{
     opacity: 1;
 }
 .content__projects a{
@@ -306,7 +306,7 @@ progress{
 .contact__socialArea a {
     text-decoration: none;
 }
-.contact__socialArea .projects__github:hover{
+.contact__socialArea .projects__LinkButton:hover{
     background: black;
     color: white;
     width: 200px;
