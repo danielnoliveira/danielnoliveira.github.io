@@ -1,116 +1,117 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Portifolio</title>
-        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-        <link rel="stylesheet" href="normalize.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    </head>
-    <body>
-        <header class="header">
-            <nav class="header__topbar">
-                <span class="topbar__name">My portifolio</span>
-                <ul class="topbar__nav">
-                    <li class="nav__item"><a href="#start">About me</a></li>
-                    <li class="nav__item"><a href="#skills">My Skills</a></li>
-                    <li class="nav__item"><a href="#projects">My Projects</a></li>
-                    <li class="nav__item"><a href="#xpwork">My job experiences</a></li>
-                    <li class="nav__item"><a href="#contact">Contact</a></li>
-                </ul>
-                <button class="topbar__hamburger">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portifolio</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__topbar">
+            <span class="topbar__name">My portifolio</span>
+            <ul class="topbar__nav">
+                <li class="nav__item"><a href="#start">About me</a></li>
+                <li class="nav__item"><a href="#skills">My Skills</a></li>
+                <li class="nav__item"><a href="#projects">My Projects</a></li>
+                <li class="nav__item"><a href="#xpwork">My job experiences</a></li>
+                <li class="nav__item"><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="topbar__hamburger">
                     <i class="fa fa-bars"></i>
                 </button>
-            </nav>
-        </header>
-        <main class="content">
-            <section class="content__section content__start" id="start">
-                <h2 class="start__saudations">Hi, my name is Daniel Nogueira</h2>
-                <p class="start__bio">
-                    I am a student of software engineering. And I'm studying and developing my 
-                    skills to be a full-stack developer and a mobile developer.
-                </p>
-            </section>
-            <section class="content__section content__skills" id="skills">
-                    <h2 class="skills__title">Skills</h2>
+        </nav>
+    </header>
+    <main class="content">
+        <section class="content__section content__start" id="start">
+            <h2 class="start__saudations">Hi, my name is Daniel Nogueira</h2>
+            <p class="start__bio">
+                I am a student of software engineering. And I'm studying and developing my skills to be a full-stack developer and a mobile developer.
+            </p>
+        </section>
+        <section class="content__section content__skills" id="skills">
+            <h2 class="skills__title">Skills</h2>
 
-                    <div data-aos="fade-right" data-aos-easing="ease-in" data-aos-delay="300" class="animate__animated skills__card">
-                        <header class="card__header">
-                            <h3 class="header__title">Front-End Skills</h3>
-                        </header>
-                        <main class="card__content">
-                            <div class="content__skill">
-                                <label for="html">HTML</label>
-                                <progress id="html" value="45" max="100"></progress>
-                            </div>
-                            <div class="content__skill">
-                                <label for="html">CSS</label>
-                                <progress id="html" value="50" max="100"></progress>
-                            </div>
-                            <div class="content__skill">
-                                <label for="html">React.js</label>
-                                <progress id="html" value="40" max="100"></progress>
-                            </div>
-                            <div class="content__skill">
-                                <label for="html">Bootstrap</label>
-                                <progress id="html" value="25" max="100"></progress>
-                            </div>
-                            <div class="content__skill">
-                                <label for="html">Javascript</label>
-                                <progress id="html" value="85" max="100"></progress>
-                            </div>
-                        </main>
+            <div data-aos="fade-right" data-aos-easing="ease-in" data-aos-delay="300" class="animate__animated skills__card">
+                <header class="card__header">
+                    <h3 class="header__title">Front-End Skills</h3>
+                </header>
+                <main class="card__content">
+                    <div class="content__skill">
+                        <label for="html">HTML</label>
+                        <progress id="html" value="45" max="100"></progress>
                     </div>
-                    <div data-aos="fade-right" data-aos-easing="ease-in" data-aos-delay="200" class="animate__animated skills__card">
-                        <header class="card__header">
-                            <h3 class="header__title">Back-End Skills</h3>
-                        </header>
-                        <main class="card__content">
-                            <div class="content__skill">
-                                <label for="html">NodeJS</label>
-                                <progress id="html" value="75" max="100"></progress>
-                            </div>
-                            <div class="content__skill">
-                                <label for="html">MySQL</label>
-                                <progress id="html" value="50" max="100"></progress>
-                            </div>
-                            <div class="content__skill">
-                                <label for="html">SQLite</label>
-                                <progress id="html" value="50" max="100"></progress>
-                            </div>
-                            <div class="content__skill">
-                                <label for="html">Django</label>
-                                <progress id="html" value="40" max="100"></progress>
-                            </div>
-                            <div class="content__skill">
-                                <label for="html">PHP</label>
-                                <progress id="html" value="35" max="100"></progress>
-                            </div>
-                        </main>
+                    <div class="content__skill">
+                        <label for="html">CSS</label>
+                        <progress id="html" value="50" max="100"></progress>
                     </div>
-                    <div data-aos="fade-right" data-aos-easing="ease-in" data-aos-delay="100" class="animate__animated skills__card">
-                        <header class="card__header">
-                            <h3 class="header__title">Mobile/Others Skills</h3>
-                        </header>
-                        <main class="card__content">
-                            <div class="content__skill">
-                                <label for="html">React Native</label>
-                                <progress id="html" value="50" max="100"></progress>
-                            </div>
-                            <div class="content__skill">
-                                <label for="html">Git</label>
-                                <progress id="html" value="50" max="100"></progress>
-                            </div>
-                            
-                        </main>
+                    <div class="content__skill">
+                        <label for="html">React.js</label>
+                        <progress id="html" value="40" max="100"></progress>
                     </div>
-                    
-                
-            </section>
-<!-- <div class="projects__ConstructionArea">
+                    <div class="content__skill">
+                        <label for="html">Bootstrap</label>
+                        <progress id="html" value="25" max="100"></progress>
+                    </div>
+                    <div class="content__skill">
+                        <label for="html">Javascript</label>
+                        <progress id="html" value="85" max="100"></progress>
+                    </div>
+                </main>
+            </div>
+            <div data-aos="fade-right" data-aos-easing="ease-in" data-aos-delay="200" class="animate__animated skills__card">
+                <header class="card__header">
+                    <h3 class="header__title">Back-End Skills</h3>
+                </header>
+                <main class="card__content">
+                    <div class="content__skill">
+                        <label for="html">NodeJS</label>
+                        <progress id="html" value="75" max="100"></progress>
+                    </div>
+                    <div class="content__skill">
+                        <label for="html">MySQL</label>
+                        <progress id="html" value="50" max="100"></progress>
+                    </div>
+                    <div class="content__skill">
+                        <label for="html">SQLite</label>
+                        <progress id="html" value="50" max="100"></progress>
+                    </div>
+                    <div class="content__skill">
+                        <label for="html">Django</label>
+                        <progress id="html" value="40" max="100"></progress>
+                    </div>
+                    <div class="content__skill">
+                        <label for="html">PHP</label>
+                        <progress id="html" value="35" max="100"></progress>
+                    </div>
+                </main>
+            </div>
+            <div data-aos="fade-right" data-aos-easing="ease-in" data-aos-delay="100" class="animate__animated skills__card">
+                <header class="card__header">
+                    <h3 class="header__title">Mobile/Others Skills</h3>
+                </header>
+                <main class="card__content">
+                    <div class="content__skill">
+                        <label for="html">React Native</label>
+                        <progress id="html" value="50" max="100"></progress>
+                    </div>
+                    <div class="content__skill">
+                        <label for="html">Git</label>
+                        <progress id="html" value="50" max="100"></progress>
+                    </div>
+
+                </main>
+            </div>
+
+
+        </section>
+        <!-- <div class="projects__ConstructionArea">
                     <div class="ConstructionArea__icon">
                         <i class="fa fa-cog"></i>
                     </div>
@@ -119,76 +120,77 @@
                 <h2>Please visit my github repository to see some of my most recent projects</h2>
                 <a href="https://github.com/danielnoliveira">
                     <button class="projects__LinkButton"><i class="fa fa-github"></i> <span>https://github.com/danielnoliveira</span></button>
-                </a>             -->   
-            <section class="content__section content__projects" id="projects">
-                                <!-- Slideshow container -->
-                <div class="slideshow__container">
+                </a>             -->
+        <section class="content__section content__projects" id="projects">
+            <!-- Slideshow container -->
+            <div class="slideshow__container">
 
-                  <!-- Full-width images with number and caption text -->
-                  <div class="mySlides fade">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
                     <div class="numbertext">1 / 3</div>
                     <img src="img1.png" style="width:100%;height: 100%">
-                    
-                  </div>
 
-                  <div class="mySlides fade">
+                </div>
+
+                <div class="mySlides fade">
                     <div class="numbertext">2 / 3</div>
                     <img src="img2.png" style="width:100%;height: 100%">
 
-                  </div>
+                </div>
 
-                  <div class="mySlides fade">
+                <div class="mySlides fade">
                     <div class="numbertext">3 / 3</div>
                     <img src="img4.jpg" style="width:100%;height: 100%">
 
-                  </div>
-
-                  <!-- Next and previous buttons -->
-                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
-                <br>
 
-                <!-- The dots/circles -->
-                <div class="slides__dots" style="text-align:center">
-                  <span class="dot" onclick="currentSlide(1)"></span>
-                  <span class="dot" onclick="currentSlide(2)"></span>
-                  <span class="dot" onclick="currentSlide(3)"></span>
-                </div>                    
-            </section>
-            <section class="content__section content__xpwork" id="xpwork">
-                <div class="projects__ConstructionArea">
-                    <div class="ConstructionArea__icon">
-                        <i class="fa fa-cog"></i>
-                    </div>
-                    <h2>In construction<span>.</span><span>.</span><span>.</span></h2>
-                </div>
-            </section>
-            <section class="content__section content__contact" id="contact">
-                <h2 class="contact__title">Ways to contact me</h2>
-                <div class="contact__area">
-                    <div class="area__socialArea">
-                        <a href="https://github.com/danielnoliveira">
-                            <button class="projects__InfoButton"><i class="fa fa-github"></i> <span>Github</span></button>
-                        </a>
-                        <a href="https://www.linkedin.com/in/daniel-nogueira-23860a12b">
-                            <button class="projects__InfoButton"><i class="fa fa-linkedin"></i> <span>Linkedin</span></button>
-                        </a>
-                        <a href="https://www.facebook.com/profile.php?id=100011182684842">
-                            <button  class="projects__InfoButton"><i style="margin-left:10px" class="fa fa-facebook"></i> <span style="margin-left:25px">Facebook</span></button>
-                        </a>
-                        <button class="projects__InfoButton"><i class="fa fa-whatsapp"></i> <span>(88)99627-5951</span></button>
-                        <button class="projects__InfoButton"><i class="fa fa-envelope-o"></i> <span>daniel.n.oliveira@outlook.com</span></button>
-                    </div>
-                </div>
-            </section>
-        </main>
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
 
-        <script src='./script.js'>
-        </script>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-          AOS.init();
-        </script>
-    </body>
+            <!-- The dots/circles -->
+            <div class="slides__dots" style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </section>
+        <section class="content__section content__xpwork" id="xpwork">
+            <div class="projects__ConstructionArea">
+                <div class="ConstructionArea__icon">
+                    <i class="fa fa-cog"></i>
+                </div>
+                <h2>In construction<span>.</span><span>.</span><span>.</span></h2>
+            </div>
+        </section>
+        <section class="content__section content__contact" id="contact">
+            <h2 class="contact__title">Ways to contact me</h2>
+            <div class="contact__area">
+                <div class="area__socialArea">
+                    <a href="https://github.com/danielnoliveira">
+                        <button class="projects__InfoButton"><i class="fa fa-github"></i> <span>Github</span></button>
+                    </a>
+                    <a href="https://www.linkedin.com/in/daniel-nogueira-23860a12b">
+                        <button class="projects__InfoButton"><i class="fa fa-linkedin"></i> <span>Linkedin</span></button>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100011182684842">
+                        <button class="projects__InfoButton"><i style="margin-left:10px" class="fa fa-facebook"></i> <span style="margin-left:25px">Facebook</span></button>
+                    </a>
+                    <button class="projects__InfoButton"><i class="fa fa-whatsapp"></i> <span>(88)99627-5951</span></button>
+                    <button class="projects__InfoButton"><i class="fa fa-envelope-o"></i> <span>daniel.n.oliveira@outlook.com</span></button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src='./script.js'>
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
 </html>
