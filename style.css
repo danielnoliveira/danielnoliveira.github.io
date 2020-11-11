@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +6,8 @@
     scroll-behavior: smooth;
     box-sizing: border-box;
 }
-body{
+
+body {
     background: #000;
 }
 
@@ -17,27 +17,32 @@ body{
     left: 0;
     height: 59px;
     width: 100%;
-    background:#000;
+    background: #000;
     color: white;
     z-index: 5;
 }
+
 .header__topbar {
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     padding: 0 20px;
 }
-.topbar__nav{
+
+.topbar__nav {
     display: flex;
     list-style: none;
 }
+
 .nav__item {
     margin: 0 10px;
 }
+
 .nav__item:hover {
     background: yellowgreen;
 }
-.nav__item a{
+
+.nav__item a {
     display: block;
     text-decoration: none;
     color: white;
@@ -48,7 +53,6 @@ body{
 
 .topbar__name {
     font-size: 1.8rem;
-    
 }
 
 .content {
@@ -57,17 +61,20 @@ body{
     margin-top: 60px;
     transition: all 0.85s;
 }
+
 .content__section {
     width: 100%;
     height: 100vh;
 }
-.content__start{
+
+.content__start {
     background: yellowgreen url(https://images.unsplash.com/photo-1468070454955-c5b6932bd08d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80) no-repeat;
     background-size: 100% 100%;
     text-align: center;
     color: white;
 }
-.content__skills{
+
+.content__skills {
     background: #f3f3f3;
     display: flex;
     padding: 0 20px;
@@ -76,6 +83,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
 }
+
 .skills__card {
     background: rgba(0, 0, 0, 0.9);
     width: 320px;
@@ -85,6 +93,7 @@ body{
     margin: 10px 20px;
     height: 450px;
 }
+
 .skills__title {
     text-align: center;
     flex: 0 0 100%;
@@ -94,32 +103,37 @@ body{
     font-size: 30px;
 }
 
-@media (max-width:1085px){
-    .content__skills{
+@media (max-width:1085px) {
+    .content__skills {
         height: auto;
         padding: 20px 0;
     }
-    .skills__title{
+    .skills__title {
         margin-top: 45px;
     }
 }
-.content__projects{
+
+.content__projects {
     background: yellowgreen;
 }
-.content__xpwork{
+
+.content__xpwork {
     background: sienna;
 }
+
 .start__saudations {
     font-size: 4rem;
     padding: 80px 0;
 }
+
 .start__bio {
     line-height: 3rem;
     font-size: 2rem;
     margin-top: 50px;
     padding: 0 100px;
 }
-.topbar__hamburger{
+
+.topbar__hamburger {
     background: none;
     font-size: 30px;
     border: none;
@@ -128,8 +142,9 @@ body{
     cursor: pointer;
     margin-top: 8px;
 }
-@media(max-width:961px){
-    .topbar__nav{
+
+@media(max-width:961px) {
+    .topbar__nav {
         display: block;
         position: absolute;
         top: -600%;
@@ -141,36 +156,39 @@ body{
         background-color: #000;
         transition: 1.5s;
     }
-    .topbar__name{
+    .topbar__name {
         padding-top: 10px;
     }
-    .topbar__hamburger{
+    .topbar__hamburger {
         display: block;
     }
-    .start__saudations{
+    .start__saudations {
         font-size: 2.5rem;
         padding-bottom: 40px;
-    }   
-    .start__bio{
+    }
+    .start__bio {
         font-size: 1.8rem;
         padding: 0 40px;
     }
 }
+
 .topbar__nav--active {
-    top:100%;
+    top: 100%;
     opacity: 1;
 }
 
-.content--move{
+.content--move {
     position: absolute;
     top: 45%;
     z-index: 1;
 }
-.card__header{
+
+.card__header {
     text-align: center;
     padding: 10px;
 }
-.card__content{
+
+.card__content {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -178,25 +196,31 @@ body{
     align-items: center;
     height: 400px;
 }
-progress{
+
+progress {
     border-radius: 15px;
     overflow: hidden;
     height: 10px;
 }
-progress::-moz-progress-bar,progress::-webkit-progress-value  {
+
+progress::-moz-progress-bar,
+progress::-webkit-progress-value {
     background-color: yellowgreen;
 }
-progress{
+
+progress {
     color: yellowgreen;
 }
-.content__skill{
+
+.content__skill {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 30px;
 }
-.content__projects{
+
+.content__projects {
     background: #c3c3c3;
     padding: 20px 10px;
     display: flex;
@@ -204,7 +228,8 @@ progress{
     justify-content: space-evenly;
     align-items: center;
 }
-.content__xpwork{
+
+.content__xpwork {
     background: white;
     padding: 20px 10px;
     display: flex;
@@ -212,44 +237,53 @@ progress{
     justify-content: space-evenly;
     align-items: center;
 }
-.ConstructionArea__icon{
+
+.ConstructionArea__icon {
     font-size: 100px;
     text-align: center;
     animation: spin 3s infinite linear;
 }
-.projects__ConstructionArea h2{
+
+.projects__ConstructionArea h2 {
     font-size: 40px;
     margin-bottom: 40px;
 }
-.projects__ConstructionArea span{
+
+.projects__ConstructionArea span {
     opacity: 0;
 }
-.projects__ConstructionArea span:nth-child(1){
+
+.projects__ConstructionArea span:nth-child(1) {
     animation: NowYouSee 2s 0.5s infinite linear;
 }
-.projects__ConstructionArea span:nth-child(2){
+
+.projects__ConstructionArea span:nth-child(2) {
     animation: NowYouSee 2s 0.85s infinite linear;
 }
-.projects__ConstructionArea span:nth-child(3){
+
+.projects__ConstructionArea span:nth-child(3) {
     animation: NowYouSee 2s 1.2s infinite linear;
 }
-@keyframes NowYouSee{
-    from{
+
+@keyframes NowYouSee {
+    from {
         opacity: 0;
     }
-    to{
+    to {
         opacity: 1;
     }
 }
-@keyframes spin{
+
+@keyframes spin {
     from {
         transform: rotate(0deg);
     }
-    to{
+    to {
         transform: rotate(360deg);
     }
 }
-.projects__LinkButton{
+
+.projects__LinkButton {
     background: white;
     font-size: 85px;
     cursor: pointer;
@@ -264,38 +298,45 @@ progress{
     align-items: center;
     text-decoration: none;
 }
-.projects__LinkButton>i{
+
+.projects__LinkButton>i {
     margin-left: 2px;
 }
-.projects__LinkButton span{
+
+.projects__LinkButton span {
     font-size: 23px;
     margin-left: 14px;
     opacity: 0;
     transition: opacity 0.5s;
     transition-delay: 0.75s;
 }
-.projects__LinkButton:hover{
+
+.projects__LinkButton:hover {
     background: black;
     color: white;
     width: 464px;
 }
-.projects__LinkButton:hover span{
+
+.projects__LinkButton:hover span {
     opacity: 1;
 }
-.content__projects a{
+
+.content__projects a {
     text-decoration: none;
 }
 
-.content__contact{
+.content__contact {
     display: flex;
     padding: 65px 30px 50px 30px;
     flex-direction: column;
 }
-.contact__area{
+
+.contact__area {
     height: 100%;
     display: flex;
 }
-.area__socialArea{
+
+.area__socialArea {
     width: 100%;
     height: 100%;
     display: flex;
@@ -304,22 +345,25 @@ progress{
     justify-content: space-evenly;
     align-items: center;
 }
+
 .contact__socialArea a {
     text-decoration: none;
 }
-.contact__socialArea .projects__LinkButton{
+
+.contact__socialArea .projects__LinkButton {
     background: black;
     color: white;
     width: 200px;
 }
-.contact__title{
+
+.contact__title {
     text-align: center;
     padding: 20px;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-.projects__InfoButton{
+.projects__InfoButton {
     padding: 10px 15px;
     font-size: 24px;
     background: white;
@@ -327,116 +371,151 @@ progress{
     border-radius: 5%;
     transition: 0.75s;
 }
-.projects__InfoButton:nth-child(-n+3):hover{
+
+.projects__InfoButton:nth-child(-n+3):hover {
     cursor: pointer;
     background: black;
     color: white;
 }
-.projects__InfoButton i{
+
+.projects__InfoButton i {
     font-size: 25px;
 }
-.content__projects{
+
+.content__projects {
     padding: 18px 0 0 0;
     position: relative;
 }
 
+
 /* Slideshow container */
+
 .slideshow__container {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  margin: auto;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 /* Hide the images by default */
+
 .mySlides {
-  display: none;
-  max-width: 1100px;
-  height: 600px;
-  margin-left: 50%
+    display: none;
+    width: 90%;
+    height: 600px;
 }
+
 
 /* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
 }
+
 
 /* Position the "next button" to the right */
+
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
+
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
+
 
 /* Caption text */
+
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
 }
+
 
 /* Number text (1/3 etc) */
+
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
 }
+
 
 /* The dots/bullets/indicators */
+
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
+.active,
+.dot:hover {
+    background-color: #717171;
 }
+
 
 /* Fading animation */
+
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
-.slides__dots{
+
+.slides__dots {
     position: absolute;
     bottom: 20px;
     left: 50%;
